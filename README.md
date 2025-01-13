@@ -60,8 +60,8 @@ Proyek ini adalah implementasi CRUD (Create, Read, Update, Delete) menggunakan f
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/nama-repo.git
-cd nama-repo
+git clone https://github.com/NCholisM/tesfastprint.git
+cd tesfastprint
 ```
 
 ### 2. Instalasi Database
