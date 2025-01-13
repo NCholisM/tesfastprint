@@ -21,7 +21,7 @@ class Produk extends CI_Controller
     // GET: /api/produk
     public function index()
     {
-        $produk = $this->Produk_model->get_produk();
+        $produk = $this->Produk_model->get_produk_api();
         $this->output_json(['status' => 'success', 'data' => $produk]);
     }
 

@@ -14,6 +14,13 @@ class Produk_model extends CI_Model
         return $query->result();
     }
 
+    // Tampil Data API
+    function get_produk_api()
+    {
+        $query = $this->db->get('produk');
+        return $query->result_array();
+    }
+
     // Tambah Data
     function insert_produk($data)
     {
