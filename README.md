@@ -137,4 +137,23 @@ http://localhost/tesfastprint/produk
 
 ## Dokumentasi Video
 
+### Menampilkan Data
+https://github.com/user-attachments/assets/4c811de1-00e0-423e-9199-e0802edda574
+
+
+### Tambah Data
+https://github.com/user-attachments/assets/33f0b76c-e058-4a0e-8fc4-5c6b31c1e8b6
+
+
+### Edit Data
+https://github.com/user-attachments/assets/e8623df2-ef47-430b-8ef1-8828ba3770da
+
+
+### Hapus Data
+https://github.com/user-attachments/assets/984abcf5-f768-439f-a5f9-6636462a65a0
+
+
+### API Produk
+https://github.com/user-attachments/assets/8f1e788d-310d-43ba-8594-570f8ad2eea4
+
 
