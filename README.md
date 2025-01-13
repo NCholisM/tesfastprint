@@ -66,7 +66,7 @@ cd tesfastprint
 
 ### 2. Instalasi Database
 
-- Import file SQL yang telah disediakan: `database.sql`.
+- Import file SQL yang telah disediakan: `tesfastprint.sql`.
 - Atur konfigurasi database di `application/config/database.php`:
 
 ```php
