@@ -1,15 +1,11 @@
-Berikut adalah **README.md** yang sesuai dengan instruksi Anda:
-
----
-
-# CRUD Produk dengan Framework CodeIgniter 3
+# TES FAST PRINT
 
 ## Deskripsi Proyek
 
-Proyek ini adalah implementasi CRUD (Create, Read, Update, Delete) menggunakan framework CodeIgniter 3. Aplikasi ini memanfaatkan data dari API eksternal dan menyimpannya ke dalam database MySQL atau PostgreSQL. Fitur utama aplikasi ini meliputi:
+Proyek ini adalah implementasi CRUD (Create, Read, Update, Delete) menggunakan framework CodeIgniter 3. Aplikasi ini memanfaatkan data dari API eksternal dan menyimpannya ke dalam database MySQL. Fitur utama aplikasi ini meliputi:
 
 - Menampilkan data produk dari database.
-- Filter produk dengan status "bisa dijual".
+- Menampilkan produk dengan status "bisa dijual".
 - CRUD produk (Tambah, Edit, Hapus) dengan validasi input.
 - Konfirmasi sebelum menghapus data.
 
@@ -29,10 +25,9 @@ Proyek ini adalah implementasi CRUD (Create, Read, Update, Delete) menggunakan f
 ## Teknologi yang Digunakan
 
 - **Framework**: CodeIgniter 3
-- **Database**: MySQL / PostgreSQL
+- **Database**: MySQL 
 - **Bahasa Pemrograman**: PHP
 - **Library**: Bootstrap 5 untuk tampilan
-- **API Client**: cURL atau PHP `file_get_contents`
 
 ## Struktur Database
 
@@ -80,7 +75,7 @@ $db['default'] = array(
     'hostname' => 'localhost',
     'username' => 'root',
     'password' => '',
-    'database' => 'nama_database',
+    'database' => 'tesfastprint',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
@@ -104,7 +99,7 @@ $db['default'] = array(
 - Sesuaikan endpoint di controller `Produk.php`:
 
 ```php
-$api_url = 'https://example.com/api/produk';
+$api_url = 'https://tesfastprint/api/produk';
 ```
 
 ### 4. Jalankan Aplikasi
@@ -112,7 +107,7 @@ $api_url = 'https://example.com/api/produk';
 - Akses aplikasi melalui browser:
 
 ```bash
-http://localhost/nama-proyek/
+http://localhost/tesfastprint/produk
 ```
 
 ## Cara Penggunaan
@@ -120,7 +115,6 @@ http://localhost/nama-proyek/
 ### 1. Menampilkan Data Produk
 
 - Halaman utama menampilkan semua produk yang sudah tersimpan.
-- Klik menu "Hanya Bisa Dijual" untuk melihat produk dengan status "bisa dijual".
 
 ### 2. Menambah Produk
 
@@ -143,16 +137,4 @@ http://localhost/nama-proyek/
 
 ## Dokumentasi Video
 
-Link dokumentasi video dapat dilihat di: YouTube
 
-## Kontak
-
-Jika Anda memiliki pertanyaan atau membutuhkan bantuan, hubungi:
-
-- Nama: [Nama Anda]
-- Email: [Email Anda]
-- GitHub: [GitHub Anda]
-
----
-
-Silakan sesuaikan dengan detail dan URL yang sesuai dengan proyek Anda. Jika ada tambahan fitur atau pertanyaan, beri tahu saya!
